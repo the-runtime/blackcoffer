@@ -1,0 +1,18 @@
+heading:
+    css: h1.entry-title
+    xpath: null
+    type: Text
+Text:
+    css: 'article.td-post-template-7 div.td-pb-row'
+    xpath: null
+    type: Text
+    children:
+        para:
+            css: p
+            xpath: null
+            multiple: true
+            type: Text
+        text:
+            css: div.td-post-content
+            xpath: null
+            type: Text
